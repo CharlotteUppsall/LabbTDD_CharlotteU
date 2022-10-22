@@ -25,5 +25,7 @@ public class TestEmployeeInfo {
     public void testGetEmployeeAge(){
         int expected = 33;
         int actual = testObject.getAge();
+
+        Assertions.assertEquals(expected, actual);
     }
 }
