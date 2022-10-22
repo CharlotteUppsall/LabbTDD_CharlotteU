@@ -13,5 +13,4 @@ public class TestEmployeeInfo {
         Assertions.assertEquals(expected, actual);
     }
 
-
 }
