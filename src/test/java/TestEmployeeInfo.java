@@ -50,7 +50,11 @@ public class TestEmployeeInfo {
     @Test
     public void testSetEmployeeAge(){
         int expected = 34;
-        testObject1.setAge();
+        testObject1.setAge(expected);
+
+        int actual = testObject1.getAge();
+
+        assertEquals(expected, actual);
     }
 
     @Test
