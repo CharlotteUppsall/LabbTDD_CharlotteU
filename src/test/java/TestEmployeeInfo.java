@@ -42,7 +42,7 @@ public class TestEmployeeInfo {
     @Test
     public void testGetEmployeeAge(){
         int expected = 33;
-        int actual = testObject1.getAge();
+        int actual = testObject1.getEmployeeAge();
 
         assertEquals(expected, actual);
     }
@@ -50,9 +50,8 @@ public class TestEmployeeInfo {
     @Test
     public void testSetEmployeeAge(){
         int expected = 34;
-        testObject1.setAge(expected);
-
-        int actual = testObject1.getAge();
+        testObject1.setEmployeeAge(expected);
+        int actual = testObject1.getEmployeeAge();
 
         assertEquals(expected, actual);
     }

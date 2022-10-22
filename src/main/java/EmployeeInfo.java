@@ -32,11 +32,11 @@ public class EmployeeInfo {
         this.lastName = lastName;
     }
 
-    public int getAge() {
+    public int getEmployeeAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setEmployeeAge(int age) {
         this.age = age;
     }
 
