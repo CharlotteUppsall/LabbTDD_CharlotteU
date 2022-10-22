@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+
 public class TestEmployeeSystem {
 
     EmployeeInfo testObject_employee1;
@@ -13,6 +15,10 @@ public class TestEmployeeSystem {
 
         testObject_System.addEmployeeToList(testObject_employee1);
         testObject_System.addEmployeeToList(testObject_employee2);
+
+        ArrayList<EmployeeInfo> listOfEmployees = testObject_System.getListOfEmployee();
+
+
 
     }
 }
