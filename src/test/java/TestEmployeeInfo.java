@@ -20,4 +20,10 @@ public class TestEmployeeInfo {
 
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testGetEmployeeAge(){
+        int expected = 33;
+        String actual = testObject.getAge();
+    }
 }
