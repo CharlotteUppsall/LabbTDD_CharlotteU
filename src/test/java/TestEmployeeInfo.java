@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestEmployeeInfo {
 
-    EmployeeInfo testObject1 = new EmployeeInfo("Charlie", "Uppsall", 33);
+    EmployeeInfo testObject1 = new EmployeeInfo("Charlie", "Uppsall", 33, 26500);
 
     @Test
     public void testGetEmployeeFirstName(){
