@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestEmployeeInfo {
 
-    EmployeeInfo testObject = new EmployeeInfo("Charlie");
+    EmployeeInfo testObject = new EmployeeInfo("Charlie", "Uppsall");
 
     @Test
     public void testGetEmployeeFirstName(){
@@ -17,5 +17,7 @@ public class TestEmployeeInfo {
     public void testGetEmployeeLastName(){
         String expected = "Uppsall";
         String actual = testObject.getLastName();
+
+        Assertions.assertEquals(expected, actual);
     }
 }

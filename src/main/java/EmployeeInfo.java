@@ -1,9 +1,11 @@
 public class EmployeeInfo {
 
     private String firstName;
+    private String lastName;
 
-    public EmployeeInfo(String firstName){
+    public EmployeeInfo(String firstName, String lastName){
         this.firstName = firstName;
+        this.lastName = lastName;
 
     }
 
@@ -11,5 +13,8 @@ public class EmployeeInfo {
         return firstName;
     }
 
+    public String getLastName() {
+        return lastName;
     }
 }
+
