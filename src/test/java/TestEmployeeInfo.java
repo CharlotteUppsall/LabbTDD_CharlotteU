@@ -34,6 +34,7 @@ public class TestEmployeeInfo {
     public void testSetEmployeeLastName(){
         String expected = "Morling-Uppsall";
         testObject1.setLastName();
+
     }
 
     @Test
