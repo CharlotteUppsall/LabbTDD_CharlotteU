@@ -47,10 +47,11 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testGetNewEmployeeID(){
+    public void testGetNewEmployeeID() {
         EmployeeInfo testObject2 = new EmployeeInfo("Selma", "Lagerlof", 55, 34500);
         int actual = testObject2.getUniqeEmployeeID();
 
         assertEquals(2, actual);
+    }
 
 }
