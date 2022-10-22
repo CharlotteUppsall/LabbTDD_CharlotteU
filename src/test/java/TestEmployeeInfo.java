@@ -31,6 +31,12 @@ public class TestEmployeeInfo {
     }
 
     @Test
+    public void testSetEmployeeLastName(){
+        String expected = "Morling-Uppsall";
+        testObject1.setLastName();
+    }
+
+    @Test
     public void testGetEmployeeAge(){
         int expected = 33;
         int actual = testObject1.getAge();
