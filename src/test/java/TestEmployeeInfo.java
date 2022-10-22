@@ -38,5 +38,13 @@ public class TestEmployeeInfo {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void testGetEmployeeOneID(){
+        int actual = testObject1.getIDEmployee();
+        int expected = 1;
+
+        assertEquals(expected, actual);
+
+    }
 
 }
