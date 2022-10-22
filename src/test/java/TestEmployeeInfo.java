@@ -33,7 +33,7 @@ public class TestEmployeeInfo {
     @Test
     public void testSetEmployeeLastName(){
         String expected = "Morling-Uppsall";
-        testObject1.setLastName();
+        testObject1.setLastName(expected);
 
     }
 
