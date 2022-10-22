@@ -39,8 +39,8 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testGetEmployeeOneID(){
-        int actual = testObject1.getIDEmployee();
+    public void testGetUniqeID_of_EmployeeOne(){
+        int actual = testObject1.getUniqeEmployeeID();
         int expected = 1;
 
         assertEquals(expected, actual);

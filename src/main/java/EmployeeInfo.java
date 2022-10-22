@@ -32,7 +32,7 @@ public class EmployeeInfo {
         return salary;
     }
 
-    public int getIDEmployee() {
+    public int getUniqeEmployeeID() {
         return uniqeEmployeeID;
     }
 }
