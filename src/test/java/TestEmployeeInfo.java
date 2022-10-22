@@ -35,6 +35,9 @@ public class TestEmployeeInfo {
         String expected = "Morling-Uppsall";
         testObject1.setLastName(expected);
 
+        String actual = testObject1.getLastName();
+
+        assertEquals(expected, actual);
     }
 
     @Test
