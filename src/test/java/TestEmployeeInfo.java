@@ -67,7 +67,9 @@ public class TestEmployeeInfo {
     @Test
     public void testSetSalary(){
         double expected = 29000;
-        testObject1.setSalary();
+        testObject1.setSalary(expected);
+
+        assertEquals(expected, 29000);
     }
 
     @Test
