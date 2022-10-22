@@ -48,6 +48,12 @@ public class TestEmployeeInfo {
     }
 
     @Test
+    public void testSetEmployeeAge(){
+        int expected = 34;
+        testObject1.setAge();
+    }
+
+    @Test
     public void testGetEmployeeSalary(){
         double expected = 26500;
         double actual = testObject1.getEmployeeSalary();
@@ -73,7 +79,5 @@ public class TestEmployeeInfo {
 
 }
 
-//ToDo TEST SetFirstName
-//ToDO TEST SetLastName
 //ToDO TEST SetSalary
 //ToDO TEST SetAge
