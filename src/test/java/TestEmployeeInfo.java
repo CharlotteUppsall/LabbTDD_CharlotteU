@@ -18,6 +18,9 @@ public class TestEmployeeInfo {
         String expected = "Charlotte";
 
         testObject1.setFirstName(expected);
+        String actual = testObject1.getFirstName();
+
+        assertEquals(expected, actual);
     }
 
     @Test
