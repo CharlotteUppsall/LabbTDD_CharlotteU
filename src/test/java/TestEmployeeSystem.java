@@ -20,7 +20,21 @@ public class TestEmployeeSystem {
 
         ArrayList<EmployeeInfo> listOfEmployees = testObject_system.getListOfEmployees();
 
-        Assertions.assertTrue(listOfEmployees.size() !=  0);
+        Assertions.assertTrue(listOfEmployees.size() ==  2);
 
     }
+
+    @Test
+    public void testRemoveEmployeeFromList(){
+        testObject_employee1 = new EmployeeInfo("Ron", "Weasley", 33, 30500);
+
+        testObject_system.addEmployeeToList(testObject_employee1);
+        testObject_system.removeEmployeeFromList(testObject_employee1);
+
+        ArrayList<EmployeeInfo> listOfEmployees = testObject_system.getListOfEmployees();
+
+
+
+    }
+
 }
