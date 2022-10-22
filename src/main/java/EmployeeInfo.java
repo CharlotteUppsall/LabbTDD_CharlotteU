@@ -4,9 +4,12 @@ public class EmployeeInfo {
 
     public EmployeeInfo(String firstName){
         this.firstName = firstName;
+
     }
 
     public String getFirstName() {
         return firstName;
+    }
+
     }
 }
