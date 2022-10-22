@@ -16,7 +16,6 @@ public class TestEmployeeInfo {
     @Test
     public void testSetEmployeeFirstName(){
         String expected = "Charlotte";
-
         testObject1.setFirstName(expected);
         String actual = testObject1.getFirstName();
 
