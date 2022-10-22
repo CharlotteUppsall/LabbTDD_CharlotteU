@@ -65,11 +65,12 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testSetSalary(){
+    public void testSetIncreasedSalary(){
         double expected = 29000;
-        testObject1.setSalary(expected);
+        testObject1.setIncreasedSalary(expected);
+        double actual = testObject1.getEmployeeSalary();
 
-        assertEquals(expected, 29001);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -89,6 +90,3 @@ public class TestEmployeeInfo {
     }
 
 }
-
-//ToDO TEST SetSalary
-//ToDO TEST SetAge
