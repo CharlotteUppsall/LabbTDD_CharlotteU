@@ -24,7 +24,7 @@ public class EmployeeInfo {
         return age;
     }
 
-    public double getSalary() {
+    public double getEmployeeSalary() {
         return salary;
     }
 }
