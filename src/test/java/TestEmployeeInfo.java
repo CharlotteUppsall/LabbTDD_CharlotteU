@@ -65,6 +65,12 @@ public class TestEmployeeInfo {
     }
 
     @Test
+    public void testSetSalary(){
+        double expected = 29000;
+        testObject1.setSalary();
+    }
+
+    @Test
     public void testGetUniqeID_of_EmployeeOne(){
         int actual = testObject1.getUniqeEmployeeID();
         int expected = 1;
