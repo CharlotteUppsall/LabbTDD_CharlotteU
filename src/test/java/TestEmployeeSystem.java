@@ -33,7 +33,7 @@ public class TestEmployeeSystem {
 
         ArrayList<EmployeeInfo> listOfEmployees = testObject_system.getListOfEmployees();
 
-        Assertions.assertTrue(listOfEmployees.size() == 0);
+        Assertions.assertTrue(listOfEmployees.size() == 2);
 
 
 
