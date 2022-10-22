@@ -14,6 +14,13 @@ public class TestEmployeeInfo {
     }
 
     @Test
+    public void testSetEmployeeFirstName(){
+        String expected = "Charlotte";
+
+        testObject1.setFirstName();
+    }
+
+    @Test
     public void testGetEmployeeLastName(){
         String expected = "Uppsall";
         String actual = testObject1.getLastName();
