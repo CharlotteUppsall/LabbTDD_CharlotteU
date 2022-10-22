@@ -36,6 +36,10 @@ public class EmployeeInfo {
         return age;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public double getEmployeeSalary() {
         return salary;
     }
