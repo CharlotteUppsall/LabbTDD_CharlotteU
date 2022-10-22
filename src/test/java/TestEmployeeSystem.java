@@ -10,6 +10,6 @@ public class TestEmployeeSystem {
 
         testObject_employee1 = new EmployeeInfo("Hermione", "Granger", 33, 30500);
 
-        testObject_System.addEmployeeToList();
+        testObject_System.addEmployeeToList(testObject_employee1);
     }
 }
