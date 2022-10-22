@@ -54,3 +54,8 @@ public class TestEmployeeInfo {
     }
 
 }
+
+//ToDo TEST SetFirstName
+//ToDO TEST SetLastName
+//ToDO TEST SetSalary
+//ToDO TEST SetAge
