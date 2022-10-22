@@ -35,8 +35,6 @@ public class TestEmployeeSystem {
 
         Assertions.assertTrue(listOfEmployees.size() == 0);
 
-
-
     }
 
 }
