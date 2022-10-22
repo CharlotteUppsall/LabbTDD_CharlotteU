@@ -12,5 +12,7 @@ public class TestEmployeeSystem {
         int expected = 2;
 
         employeeList = systemTestObject.getListOfEmployees();
+
+        int actual = employeeList.size();
     }
 }
