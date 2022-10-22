@@ -44,6 +44,10 @@ public class EmployeeInfo {
         return salary;
     }
 
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
     public int getUniqeEmployeeID() {
         return uniqeEmployeeID;
     }
