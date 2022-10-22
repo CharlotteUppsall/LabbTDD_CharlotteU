@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -47,7 +46,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testGetNewEmployeeID() {
+    public void testGetUniqeID_of_NewEmployee() {
         EmployeeInfo testObject2 = new EmployeeInfo("Selma", "Lagerlof", 55, 34500);
         int actual = testObject2.getUniqeEmployeeID();
 
