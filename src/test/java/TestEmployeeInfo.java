@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestEmployeeInfo {
 
@@ -10,7 +11,7 @@ public class TestEmployeeInfo {
         String expected = "Charlie";
         String actual = testObject1.getFirstName();
 
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -18,7 +19,7 @@ public class TestEmployeeInfo {
         String expected = "Uppsall";
         String actual = testObject1.getLastName();
 
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -26,7 +27,7 @@ public class TestEmployeeInfo {
         int expected = 33;
         int actual = testObject1.getAge();
 
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -34,6 +35,8 @@ public class TestEmployeeInfo {
         double expected = 26500;
         double actual = testObject1.getEmployeeSalary();
 
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
+
+
 }
