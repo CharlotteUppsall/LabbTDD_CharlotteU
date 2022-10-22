@@ -12,4 +12,8 @@ public class EmployeeSystem {
     public ArrayList<EmployeeInfo> getListOfEmployees() {
         return listOfEmployees;
     }
+
+    public void removeEmployeeFromList(EmployeeInfo testObject){
+        listOfEmployees.remove(testObject);
+    }
 }
