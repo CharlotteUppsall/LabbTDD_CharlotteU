@@ -1,4 +1,6 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
 
 import java.util.ArrayList;
 
@@ -16,9 +18,9 @@ public class TestEmployeeSystem {
         testObject_System.addEmployeeToList(testObject_employee1);
         testObject_System.addEmployeeToList(testObject_employee2);
 
-        ArrayList<EmployeeInfo> listOfEmployees = testObject_System.getListOfEmployee();
+        ArrayList<EmployeeInfo> listOfEmployees = testObject_System.getListOfEmployees();
 
-
+        Assertions.assertTrue(listOfEmployees.size() !=  0);
 
     }
 }

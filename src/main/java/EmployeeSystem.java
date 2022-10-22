@@ -9,4 +9,7 @@ public class EmployeeSystem {
 
     }
 
+    public ArrayList<EmployeeInfo> getListOfEmployees() {
+        return listOfEmployees;
+    }
 }
