@@ -6,19 +6,19 @@ import java.util.ArrayList;
 
 public class TestEmployeeSystem {
 
+    EmployeeSystem testObject_system = new EmployeeSystem();
     EmployeeInfo testObject_employee1;
     EmployeeInfo testObject_employee2;
 
     @Test
     public void testAddEmployeeToList() {
-        EmployeeSystem testObject_System = new EmployeeSystem();
         testObject_employee1 = new EmployeeInfo("Hermione", "Granger", 33, 30500);
         testObject_employee2 = new EmployeeInfo("Harry", "Potter", 32, 31400);
 
-        testObject_System.addEmployeeToList(testObject_employee1);
-        testObject_System.addEmployeeToList(testObject_employee2);
+        testObject_system.addEmployeeToList(testObject_employee1);
+        testObject_system.addEmployeeToList(testObject_employee2);
 
-        ArrayList<EmployeeInfo> listOfEmployees = testObject_System.getListOfEmployees();
+        ArrayList<EmployeeInfo> listOfEmployees = testObject_system.getListOfEmployees();
 
         Assertions.assertTrue(listOfEmployees.size() !=  0);
 
