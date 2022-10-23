@@ -2,6 +2,8 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// GIT länk: https://github.com/CharlotteUppsall/LabbTDD_CharlotteU.git
+
 public class TestEmployeeInfo {
 
     EmployeeInfo testObject1;
