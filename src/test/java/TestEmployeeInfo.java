@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInfo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -19,7 +20,10 @@ public class TestEmployeeInfo {
 
     @AfterEach
     public void afterEach(TestInfo testInfo) {
-        System.out.println("Finished testcase: " + testInfo.getDisplayName());
+        System.out.println("Executed testcase: " + testInfo.getDisplayName());
+    }
+
+
 
     @Test
     public void testGetEmployeeFirstName(){
