@@ -27,7 +27,7 @@ public class TestEmployeeInfo {
 
     @Test
     public void testSetEmployeeFirstName(){
-        String expected = "Lord Voldemort";
+        String expected = "Voldemort";
         testObject3.setFirstName(expected);
         String actual = testObject3.getFirstName();
 
@@ -44,9 +44,9 @@ public class TestEmployeeInfo {
 
     @Test
     public void testSetEmployeeLastName(){
-        String expected = "Morling-Uppsall";
-        testObject1.setLastName(expected);
-        String actual = testObject1.getLastName();
+        String expected = "The Dark Lord";
+        testObject3.setLastName(expected);
+        String actual = testObject3.getLastName();
 
         assertEquals(expected, actual);
     }
