@@ -81,12 +81,12 @@ public class TestEmployeeInfo {
         assertEquals(expected, actual);
     }
 
-    @Test
+    /*@Test
     public void testGetUniqeID_of_NewEmployee() {
         EmployeeInfo testObject2 = new EmployeeInfo("Selma", "Lagerlof", 55, 34500);
         int actual = testObject2.getUniqeEmployeeID();
 
         assertEquals(2, actual);
-    }
+    }*/
 
 }
