@@ -12,9 +12,9 @@ public class TestEmployeeSystem {
 
     @BeforeEach
     public void setUp(){
-        testObject_employee1 = new EmployeeInfo("Hermione", "Granger", 33, 30500);
-        testObject_employee2 = new EmployeeInfo("Harry", "Potter", 32, 31400);
-        testObject_employee3 = new EmployeeInfo("Ron", "Weasley", 33, 30500);
+        testObject_employee1 = new EmployeeInfo("Sirius", "Black", 33, 32500);
+        testObject_employee2 = new EmployeeInfo("Remus", "Lupin", 32, 31400);
+        testObject_employee3 = new EmployeeInfo("Alastor", "Moody", 46, 36500);
     }
 
     @AfterEach
