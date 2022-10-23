@@ -1,6 +1,4 @@
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;
 
@@ -17,6 +15,11 @@ public class TestEmployeeSystem {
         testObject_employee1 = new EmployeeInfo("Hermione", "Granger", 33, 30500);
         testObject_employee2 = new EmployeeInfo("Harry", "Potter", 32, 31400);
         testObject_employee3 = new EmployeeInfo("Ron", "Weasley", 33, 30500);
+    }
+
+    @AfterEach
+    public void afterEach(TestInfo testInfo) {
+        System.out.println("Executed testcase: " + testInfo.getDisplayName());
     }
 
     @Test
