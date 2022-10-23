@@ -20,7 +20,7 @@ public class TestEmployeeSystem {
 
         ArrayList<EmployeeInfo> listOfEmployees = testObject_system.getListOfEmployees();
 
-        Assertions.assertTrue(listOfEmployees.size() ==  2);
+        Assertions.assertEquals(2, listOfEmployees.size());
 
     }
 
