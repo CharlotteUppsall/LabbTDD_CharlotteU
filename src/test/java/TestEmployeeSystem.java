@@ -20,8 +20,7 @@ public class TestEmployeeSystem {
     }
 
     @Test
-    public void testAddEmployeeToList() {
-
+    public void testAddEmployeesToList() {
         testObject_system = new EmployeeSystem();
 
         testObject_system.addEmployeeToList(testObject_employee1);
@@ -31,7 +30,6 @@ public class TestEmployeeSystem {
         ArrayList<EmployeeInfo> listOfEmployees = testObject_system.getListOfEmployees();
 
         Assertions.assertEquals(3, listOfEmployees.size());
-
     }
 
     @Test
