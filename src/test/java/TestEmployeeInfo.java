@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -5,7 +6,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestEmployeeInfo {
 
-    EmployeeInfo testObject1 = new EmployeeInfo("Charlie", "Uppsall", 33, 26500);
+    EmployeeInfo testObject1;
+    EmployeeInfo testObject2;
+    EmployeeInfo testObject3;
+
+    @BeforeEach
+    public void setUpData(){
+        testObject1 = new EmployeeInfo("Bellatrix", "Lestrange", 24, 26500);
+        testObject2 = new EmployeeInfo("Severus", "Snape", 29, 34200);
+        testObject3 = new EmployeeInfo("Tom Marvolo", "Riddle", 32, 55400);
+    }
 
     @Test
     public void testGetEmployeeFirstName(){
