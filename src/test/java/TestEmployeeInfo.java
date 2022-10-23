@@ -1,6 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -88,7 +87,7 @@ public class TestEmployeeInfo {
     @Test
     public void testGetUniqeID_of_EmployeeOne(){
         int actual = testObject1.getUniqeEmployeeID();
-        int expected = 1;
+        int expected = testObject2.getUniqeEmployeeID()-1;
 
         assertEquals(expected, actual);
     }
