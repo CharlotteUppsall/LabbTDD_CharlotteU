@@ -34,12 +34,18 @@ public class TestEmployeeSystem {
 
     @Test
     public void testRemoveEmployeeFromList(){
-        testObject_system.addEmployeeToList(testObject_employee1);
-        testObject_system.removeEmployeeFromList(testObject_employee1);
-
+        testObject_system = new EmployeeSystem();
         ArrayList<EmployeeInfo> listOfEmployees = testObject_system.getListOfEmployees();
 
+        testObject_system.addEmployeeToList(testObject_employee1);
+        testObject_system.removeEmployeeFromList(testObject_employee1);
         Assertions.assertTrue(listOfEmployees.size() == 0);
+
+
+        testObject_system.addEmployeeToList(testObject_employee2);
+        testObject_system.addEmployeeToList(testObject_employee3);
+        testObject_system.removeEmployeeFromList(testObject_employee2);
+        Assertions.assertTrue(listOfEmployees.size() == 1);
 
     }
 
