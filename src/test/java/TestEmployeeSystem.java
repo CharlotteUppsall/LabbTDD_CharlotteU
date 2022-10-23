@@ -22,7 +22,7 @@ public class TestEmployeeSystem {
     @Test
     public void testAddEmployeeToList() {
 
-        testObject_employee1 = new EmployeeInfo();
+        testObject_system = new EmployeeSystem();
 
         testObject_system.addEmployeeToList(testObject_employee1);
         testObject_system.addEmployeeToList(testObject_employee2);
@@ -36,8 +36,6 @@ public class TestEmployeeSystem {
 
     @Test
     public void testRemoveEmployeeFromList(){
-        testObject_employee1 = new EmployeeInfo();
-
         testObject_system.addEmployeeToList(testObject_employee1);
         testObject_system.removeEmployeeFromList(testObject_employee1);
 
