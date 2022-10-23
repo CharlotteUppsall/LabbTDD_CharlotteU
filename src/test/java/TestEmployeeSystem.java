@@ -22,7 +22,6 @@ public class TestEmployeeSystem {
         System.out.println("Executed testcase: " + testInfo.getDisplayName());
     }
 
-
     @Test
     public void testAddEmployeesToList() {
         testObject_system = new EmployeeSystem();

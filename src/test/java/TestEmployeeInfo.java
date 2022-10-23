@@ -26,7 +26,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testGetEmployeeFirstName(){
+    public void test_GetEmployeeFirstName(){
         String expected = "Bellatrix";
         String actual = testObject1.getFirstName();
 
@@ -34,7 +34,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testSetEmployeeFirstName(){
+    public void test_SetEmployeeFirstName(){
         String expected = "Voldemort";
         testObject3.setFirstName(expected);
         String actual = testObject3.getFirstName();
@@ -43,7 +43,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testGetEmployeeLastName(){
+    public void test_GetEmployeeLastName(){
         String expected = "Snape";
         String actual = testObject2.getLastName();
 
@@ -51,7 +51,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testSetEmployeeLastName(){
+    public void test_SetEmployeeLastName(){
         String expected = "The Dark Lord";
         testObject3.setLastName(expected);
         String actual = testObject3.getLastName();
@@ -60,7 +60,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testGetEmployeeAge(){
+    public void test_GetEmployeeAge(){
         int expected = 24;
         int actual = testObject1.getEmployeeAge();
 
@@ -68,7 +68,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testSetEmployeeAge(){
+    public void test_SetEmployeeAge(){
         int expected = 25;
         testObject1.setEmployeeAge(expected);
         int actual = testObject1.getEmployeeAge();
@@ -77,7 +77,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testGetEmployeeSalary(){
+    public void test_GetEmployeeSalary(){
         double expected = 26500;
         double actual = testObject1.getEmployeeSalary();
 
@@ -85,7 +85,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testSetIncreasedSalary(){
+    public void test_SetIncreasedSalary(){
         double expected = 36400;
         testObject2.setIncreasedSalary(expected);
         double actual = testObject2.getEmployeeSalary();
@@ -94,7 +94,7 @@ public class TestEmployeeInfo {
     }
 
     @Test
-    public void testGetUniqeID_of_EmployeeOne(){
+    public void test_GetUniqeID_of_EmployeeOne(){
         int actual = testObject1.getUniqeEmployeeID();
         int expected = testObject2.getUniqeEmployeeID()-1;
 
