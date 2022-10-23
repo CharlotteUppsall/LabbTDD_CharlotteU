@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -15,6 +16,10 @@ public class TestEmployeeInfo {
         testObject2 = new EmployeeInfo("Severus", "Snape", 29, 34200);
         testObject3 = new EmployeeInfo("Tom Marvolo", "Riddle", 32, 55400);
     }
+
+    @AfterEach
+    public void afterEach(TestInfo testInfo) {
+        System.out.println("Finished testcase: " + testInfo.getDisplayName());
 
     @Test
     public void testGetEmployeeFirstName(){
